@@ -10,6 +10,9 @@
   padding-top: 32px;
   padding-left: 15px;
   padding-right: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .site-nav__link {
   color: #1b1b1b;
@@ -40,10 +43,11 @@
   margin-bottom: 0px;
 }
 
-.site-nav {
+.site-nav__container {
   display: flex;
   flex-direction: column;
   gap: 300px;
+  justify-content: space-between;
 }
 .site-nav__icon {
   .site-nav__item:hover & {
