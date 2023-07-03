@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
+    "
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <header>
+      <div class="sidenav">
+        <nav class="site-nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <svg width="24" height="24" class="site-nav__icon">
+                <use href="./images/symbol-defs.svg#icon-home-line"></use>
+              </svg>
+              <a class="site-nav__link" href="#"> Головна</a>
+            </li>
+            <li class="site-nav__item">
+              <svg width="24" height="24" class="site-nav__icon">
+                <use
+                  href="./images/symbol-defs.svg#icon-bar-chart-square-02"
+                ></use>
+              </svg>
+              <a class="site-nav__link site-nav__link--current" href="#"
+                >Сторінка1</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <svg width="24" height="24" class="site-nav__icon">
+                <use href="./images/symbol-defs.svg#icon-layers-three-01"></use>
+              </svg>
+              <a class="site-nav__link" href="#">Сторінка2</a>
+            </li>
+            <li class="site-nav__item">
+              <svg width="24" height="24" class="site-nav__icon">
+                <use href="./images/symbol-defs.svg#icon-check-done-01"></use>
+              </svg>
+              <a class="site-nav__link" href="#">Сторінка3</a>
+            </li>
+          </ul>
+          <div>
+            <li class="site-nav__item">
+              <svg width="24" height="24" class="site-nav__icon">
+                <use href="./images/symbol-defs.svg#icon-settings-01"></use>
+              </svg>
+              <a class="site-nav__link" href="#">Налаштування</a>
+            </li>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="title__container"><h1 class="title">Start</h1></div>
+      <section class="state">
+        <ul class="state__list">
+          <li class="item__state item__state-active">
+            <div class="state__container-active"></div>
+            <p state__text>Стан1</p>
+          </li>
+          <li class="item__state item__state-active">
+            <div class="state__container-active"></div>
+            <p state__text>Стан2</p>
+          </li>
+          <li class="item__state item__state-active--gray">
+            <div class="state__container"></div>
+            <p state__text>Стан3</p>
+          </li>
+          <li class="item__state">
+            <div class="state__container"></div>
+            <p state__text>Стан4</p>
+          </li>
+          <li class="item__state">
+            <div class="state__container"></div>
+            <p state__text>Стан5</p>
+          </li>
+        </ul>
+      </section>
+      <section class="base__information">
+        <div class="information">
+          <h2 class="base__information-subtitle">Information</h2>
+          <div class="information__container information__container-number">
+            <p class="base__information-text">Info Number:</p>
+            <p class="information__text">903049</p>
+          </div>
+          <div class="information__container">
+            <p class="base__information-text">Pick up Place:</p>
+            <p class="information__text">Sweden</p>
+          </div>
+        </div>
+        <div class="distance">
+          <div>
+            <h2 class="distance__subtitle">We are here</h2>
+            <p class="distance__text">Long time to go</p>
+          </div>
+          <div>
+            <img
+              class="distance__img"
+              src="./images/Truck - 1 1.jpg"
+              alt="truck"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="selection__form">
+        <div>
+          <h2 class="selection__form-subtitle">Перезамовте Багаж</h2>
+          <div>
+            <form>
+              <p class="selection__form-text">Дропдаун</p>
+              <div class="__select" data-state="">
+                <div class="__select__title"></div>
+                <div class="__select__content">
+                  <input
+                    id="singleSelect0"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                    checked
+                  />
+                  <label
+                    for="singleSelect0"
+                    tabindex="0"
+                    class="__select__label"
+                    data-value="Selected option"
+                  ></label>
+                  <input
+                    id="singleSelect1"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect1"
+                    tabindex="0"
+                    class="__select__label"
+                    data-value="Selected option 1"
+                  ></label>
+                  <input
+                    id="singleSelect2"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect2"
+                    tabindex="0"
+                    class="__select__label"
+                    data-value="Selected option 2"
+                  ></label>
+                  <input
+                    id="singleSelect3"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect3"
+                    tabindex="0"
+                    class="__select__label"
+                    data-value="Selected option 3"
+                  ></label>
+                  <input
+                    id="singleSelect4"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect4"
+                    tabindex="0"
+                    class="__select__label"
+                    data-value="Selected option 4"
+                  ></label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div>
+            <form>
+              <p class="selection__form-text">Дропдаун</p>
+              <div class="__select-1" data-state-1="">
+                <div class="__select__title-1"></div>
+                <div class="__select__content-1">
+                  <input
+                    id="singleSelect5"
+                    class="__select__input-1"
+                    type="radio"
+                    name="singleSelect"
+                    checked
+                  />
+                  <label
+                    for="singleSelect5"
+                    tabindex="0"
+                    class="__select__label-1"
+                    data-value="Selected option"
+                  ></label>
+                  <input
+                    id="singleSelect6"
+                    class="__select__input-1"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect6"
+                    tabindex="0"
+                    class="__select__label-1"
+                    data-value="Selected option 1"
+                  ></label>
+                  <input
+                    id="singleSelect7"
+                    class="__select__input-1"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect7"
+                    tabindex="0"
+                    class="__select__label-1"
+                    data-value="Selected option 2"
+                  ></label>
+                  <input
+                    id="singleSelect8"
+                    class="__select__input-1"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect8"
+                    tabindex="0"
+                    class="__select__label-1"
+                    data-value="Selected option 3"
+                  ></label>
+                  <input
+                    id="singleSelect9"
+                    class="__select__input-1"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label
+                    for="singleSelect9"
+                    tabindex="0"
+                    class="__select__label-1"
+                    data-value="Selected option 4"
+                  ></label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <button class="selection-form__button" type="submit">Done</button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./js/selection-form.js"></script>
+  </body>
+</html>
